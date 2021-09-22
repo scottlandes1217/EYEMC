@@ -220,8 +220,22 @@ h1 {
 }
 
 .video {
-  max-width: 1115px;
+  max-width: 1200px;
   padding: 25px;
+}
+
+.player-icon {
+  width: 100px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .player-icon {
+    display: inherit;
+  }
 }
 
 .custom-btn {
